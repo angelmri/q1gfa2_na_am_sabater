@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Muthiara -Demo Version-';
+    src: 
+        url(Muthiara.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Mungil';
+    src: 
+        url(Mungil-Regular.ttf) format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    text-align: center;
+    background-color: rgb(195, 166, 147);
+    height: 100vh;
+    font-family: 'Mungil', Fallback, sans-serif;
+    font-size: medium;
+    
+}
+.container div{
+    min-height: 10vh;
+}
+
+
+.navbar{
+    margin-bottom: 3px;
+    length: 30vh;
+    border: 2px solid rgb(173, 123, 91);
+}
+
+.navbar a{
+    float: right;
+    text-decoration: none;
+    color: #5f4738;
+    background-color:  rgb(195, 166, 147);
+    border: 1px solid rgb(173, 123, 91);
+    padding: 0.5vw;
+    margin-top: 1vw;
+    background-color: #e0ccbf;
+}
+.navbar h2{
+    display: block;
+    float: left;
+    color: #5f4738;
+    text-shadow: 2px rgb(95, 78, 78);
+    font-family: 'Muthiara -Demo Version-', Fallback, sans-serif;
+    font-size: 2em;
+    margin-top: 1vw;
+}
+
+.sidelinks{
+    display:inline-block;
+    border: 2px solid rgb(173, 123, 91);
+    width: 10vw;
+    float: left;
+}
+.sidelinks a{
+    display:block;
+    text-decoration: none;
+    color:#5f4738;
+    padding: 1vw;
+    font-size: larger;
+}
+.main-content{
+    display: inline-block;
+    border: 2px solid rgb(173, 123, 91);
+    width: 60vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: left;
+    font-size: larger;
+}
+.main-content h2{
+    text-align: center;
+    color: rgb(113, 83, 69);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-family: 'Muthiara -Demo Version-', Fallback, sans-serif;
+    font-size:xx-large;
+    text-shadow: 2px px rgb(95, 78, 78);
+}
+.main-content img{
+    width: 60vw;
+    margin-bottom: 2vh;
+}
+.side-content{
+    display: inline-block;
+    border: 2px solid rgb(173, 123, 91);
+    width: 20vw;
+    float: right;
+    font-size: larger;
+
+}
+.side-content img{
+    width: 20vw;
+}
